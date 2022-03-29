@@ -1,8 +1,8 @@
 # ProwJobs defined in this file specify `cluster: andy-infra in order to run in Prow's service cluster.
-### comment to initiate config-updater deploy ###
+### comment to initiate config-updater deploy ####
 postsubmits:
   AndyTauber/andy-infra:
-  - name: post-andy-infra-deploy-prow-ver1
+  - name: post-andy-infra-deploy-prow
     cluster: prow-service-trusted
     run_if_changed: 'config/prow/cluster/'
     decorate: true
