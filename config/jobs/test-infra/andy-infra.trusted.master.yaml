@@ -39,7 +39,7 @@ periodics:
     base_ref: main
   spec:
     containers:
-    - image: gcr.io/k8s-prow/generic-autobumper:v20220331-c4e1c201d5
+    - image: gcr.io/k8s-prow/generic-autobumper:v20220511-a855e15670
       command:
       - generic-autobumper
       args:
